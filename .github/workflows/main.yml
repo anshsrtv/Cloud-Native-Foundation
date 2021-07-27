@@ -38,7 +38,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Visits-on-your-Websit/Dockerfile
+          file: ./Visits-on-your-Website/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: tangytomato/visits-on-your-Website:latest
+          tags: tangytomato/visits-on-your-website:latest
