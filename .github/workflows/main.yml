@@ -41,4 +41,4 @@ jobs:
           file: ./Visits-on-your-Websit/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: tangytomato/Visits-on-your-Website:latest
+          tags: tangytomato/visits-on-your-Website:latest
