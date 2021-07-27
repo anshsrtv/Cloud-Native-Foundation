@@ -5,8 +5,8 @@ FROM node:alpine
 WORKDIR '/app'
 
 # install dependencies
-RUN npm install
 COPY . .
+RUN npm install
 
 # expose the port
 EXPOSE 8080
