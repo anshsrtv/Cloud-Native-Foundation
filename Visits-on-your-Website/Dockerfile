@@ -5,7 +5,7 @@ FROM node:alpine
 WORKDIR '/app'
 
 # install dependencies
-COPY package.json app.js ./
+COPY . .
 RUN npm install
 
 # expose the port
